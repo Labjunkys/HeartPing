@@ -1,0 +1,34 @@
+{
+    "author": "seabas917@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "heart-ping2",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "Heart Ping2",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "HEARTRATE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "2ebc23db-d585-4301-ab63-3c1f803a913c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
